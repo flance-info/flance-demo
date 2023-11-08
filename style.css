@@ -4415,9 +4415,10 @@ div#pro-box {
 }
 
 .site-branding > .wrap {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row-reverse;
 }
 
 .site-branding > .wrap:after {
@@ -4630,7 +4631,7 @@ p.site-docs a.link span:first-child {
 }
 
 @media (max-width: 480px) {
-	.site-branding .custom-logo-link.stylemix-logo {
+	.site-branding .custom-logo-link.flance-logo {
 		display: none;
 	}
 }
