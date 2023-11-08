@@ -4319,6 +4319,11 @@ Custom styles
 --------------------------------------------------------------*/
 
 /* Pro Section */
+
+div#pro-box {
+    margin-top: 20px;
+}
+
 .pro-section {
 	width: 100%;
 	padding: 8px 0;
@@ -4326,10 +4331,8 @@ Custom styles
 }
 
 .pro-section.pro-fixed {
-	position: fixed;
-	bottom: 0;
-	left: 0;
-	right: 0;
+	position: relative;
+
 	background: url("assets/images/pro-bg.png") center no-repeat;
 	background-size: cover;
 	box-shadow: 0 0 5px rgba(0, 0, 0, .1);

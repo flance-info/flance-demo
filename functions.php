@@ -20,7 +20,7 @@ function enqueue_stm_custom_styles() {
     // Enqueue your custom styles
     wp_enqueue_style('stm_zoom_main-css', get_template_directory_uri() . '/assets/cssfile/main.css', array(), '1.0', 'all');
     wp_enqueue_style('stm-font-awesome-min-css', get_template_directory_uri() . '/assets/cssfile/font-awesome.min.css', array(), '1.0', 'all');
-    wp_enqueue_style('twen-style-css', get_template_directory_uri() . '/assets/cssfile/style.css', array(), '1.0', 'all');
+   // wp_enqueue_style('twen-style-css', get_template_directory_uri() . '/assets/cssfile/style.css', array(), '1.0', 'all');
 }
 
 add_action('wp_enqueue_scripts', 'enqueue_stm_custom_styles');
