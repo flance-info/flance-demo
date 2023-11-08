@@ -1,4 +1,5 @@
 <?php
+include_once 'inc/helpers.php';
 
 function enqueue_custom_styles() {
 
@@ -36,3 +37,10 @@ function flance_edit_link(){
 function flance_posted_on()	{
 
 }
+
+
+function enable_excerpts() {
+    add_post_type_support( 'post', 'excerpt' );
+	 add_post_type_support('page', 'excerpt');
+}
+add_action('init', 'enable_excerpts');

@@ -8,13 +8,16 @@
  * @subpackage Twenty_Fifteen
  * @since Twenty Fifteen 1.0
  */
+
+
+$custom_logo_url = get_theme_mod('custom_logo_setting');
 ?>
 
 
 	<div id="pro-box">
 			<div class="pro-section pro-fixed">
 				<div class="wrap">
-					<a class="logo-url" href="https://stylemixthemes.com/zoom-meetings-webinar-plugin/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/logos-eroom.png" alt="WordPress eRoom – Zoom Meetings &amp; Webinar Demo">
+					<a class="logo-url" href="https://stylemixthemes.com/zoom-meetings-webinar-plugin/" target="_blank"><img src="<?php echo esc_url($custom_logo_url); ?>" alt="WordPress eRoom – Zoom Meetings &amp; Webinar Demo">
 						<div class="extra-links">
 								</div>
 						<div>
